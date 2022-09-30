@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
+import ME from '../../Assets/me.jpg'
 
 const Header = () => {
   return (
@@ -10,6 +11,12 @@ const Header = () => {
         <h1>Sandun Jayasekara</h1>
         <h5 className="text-light">Fullstack Blockchain Developer</h5>
         <CTA/>
+
+        <div className='me'>
+        
+          <img src={ME} alt="me" />
+        </div>
+
       </div>
     </header>
   )
